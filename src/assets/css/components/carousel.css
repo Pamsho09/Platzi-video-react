@@ -1,0 +1,43 @@
+.carousel__container:hover .carousel-item {
+    opacity: 0.3;
+  }
+  
+  .carousel__container:hover .carousel-item:hover {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  
+.carousel {
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+  }
+  
+  .carousel__container {
+    white-space: nowrap;
+    margin: 70px 0px;
+    padding-bottom: 10px;
+  }
+  
+  
+  
+  .carousel::-webkit-scrollbar {
+    width: 2px;
+    height: 20px;
+  }
+  
+  .carousel::-webkit-scrollbar-thumb {
+    background: #260764;
+    width: 2px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  
+@media only screen and (max-width: 600px) {
+    .carousel::-webkit-scrollbar {
+      width: 2px;
+      height: 20px;
+      display: none;
+    }
+  }

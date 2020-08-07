@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background-image: url("../img/diseno-de-galaxia-abstracta_1920x1080_xtrafondos.com.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+input{
+  color: white;
+}
+
+
+
+
+/*# sourceMappingURL=style.css.map */
